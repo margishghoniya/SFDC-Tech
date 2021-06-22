@@ -1,0 +1,35 @@
+{
+    "packageDirectories": [
+        {
+            "path": "MySFDCPkg",
+            "default": false,
+            "package": "sfdx-parent-pkg",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT"
+        },
+        {
+            "path": "force-app",
+            "default": true,
+            "package": "Emp-Child",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "sfdx-parent-pkg",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        }
+    ],
+    "name": "SFDC Tech",
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "52.0",
+    "packageAliases": {
+        "sfdx-parent-pkg": "0Ho0K0000000035SAA",
+        "sfdx-parent-pkg@0.1.0-2": "04t0K000001E3v5QAC",
+        "Emp-Child": "0Ho0K000000003KSAQ",
+        "Emp-Child@0.1.0-1": "04t0K000001E3vAQAS",
+        "Emp-Child@0.1.0-2": "04t0K000001E3vPQAS"
+    }
+}
