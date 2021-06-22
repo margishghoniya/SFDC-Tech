@@ -2,7 +2,7 @@
 public class EmployeeLeaveCtrl {
 
     public testmethod static void testMethod1(){
-        
+        //employee creation
         Employee__c e = new Employee__c();
         e.Name = 'test';
         e.Joining_Date__c = system.today();
