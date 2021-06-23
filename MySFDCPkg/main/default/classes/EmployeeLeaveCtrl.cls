@@ -16,7 +16,7 @@ public class EmployeeLeaveCtrl {
         
         EmployeeLeave emp = new EmployeeLeave();
         EmployeeLeave.calculateLeave();
-        emp.leaveDay = 10;
+        emp.leaveDay = 10; 
         emp.emp = e;                           
     }
 }
