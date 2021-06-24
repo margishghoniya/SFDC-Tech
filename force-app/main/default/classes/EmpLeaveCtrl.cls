@@ -5,7 +5,7 @@ public with sharing class EmpLeaveCtrl {
         Leave_Application__c lv = new Leave_Application__c();
         return lv;
     }    
-     public static void empcreation(){
+     public static void empLeaveFetch(){
          system.debug('---Method Call---');                  
      }
 }
